@@ -7,7 +7,7 @@ function App() {
   return (
       <>
           <Routes>
-            <Route exact path="/authentication" element={<Authentication />}/>
+            <Route exact path="/authentication/:tabIndex?" element={<Authentication />}/>
           </Routes>
       </>
   );
